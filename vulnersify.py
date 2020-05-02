@@ -39,11 +39,13 @@ except : print('error can\'t parsing params from file [config.conf]')
 
 #getting input & argparse
 DESCRIPTION = ''' Vulnersify : tool which optimizes searches for vulnerabilities
-requires : install vulners lookup && api key & python3
-vulners lookup : https://github.com/koutto/vulners-lookup/
+requires : install vulners lookup and get api key from vulners
+vulners lookup : https://github.com/koutto/vulners-lookup
 api key : https://vulners.com/
+first use : python3 vulnersify.py --input 'benmeddah 1.0' --api_key <your_key> --path $YOUR_PATH/vulners-lookup.py
 you can directly input the 'path' of vulners lookup and the 'api key' into [config.conf] file
 developed by: BENMEDDAH Mohamed
+https://github.com/benmeddah/vulnersify
 '''
 parser = argparse.ArgumentParser(
     formatter_class=argparse.RawDescriptionHelpFormatter, epilog=DESCRIPTION  )
