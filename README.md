@@ -7,7 +7,7 @@
 **config.conf** is a file that contains the configuration necessary to run the vulnersify.py script
 
 ## note: 
-both files must be in the same directory
+both files *vulnersify.py* and *config.conf* must be in the same directory
 
 ## install
 ```
@@ -16,7 +16,17 @@ cd vulnersify
 ```
 `pip3 install -r requirements.txt` ( or : `python3 -m pip install -r requirements.txt` )
 
-## how to use 
-`python3 vulnersify.py --help`
+## first use
+```
+python3 vulnersify.py --input 'bootstrap 4.0.0' --api_key <your_key> --path $YOUR_PATH/vulners-lookup.py
+```
+*or you can put the api key and the path directly in the config.conf file*
 
+## examples
+```
+python3 vulnersify.py --help
+python3 vulnersify.py -i 'joomla 3.3.1'
+python3 vulnersify.py -i 'joomla 3.3.1' --mode table
+python3 vulnersify.py -i 'apache 2.2.0' --type exploitdb --score '7-10'
+```
 ### developed by: BENMEDDAH Mohamed
