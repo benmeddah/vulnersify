@@ -13,8 +13,7 @@ __     __     _                     _  __
 
 **config.conf** is a file that contains the configuration necessary to run the vulnersify.py script
 
-## note: 
-both files *vulnersify.py* and *config.conf* must be in the same directory
+**note**: both files ***vulnersify.py*** and ***config.conf*** must be in the same directory
 
 ## install
 ```
