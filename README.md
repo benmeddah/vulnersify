@@ -1,5 +1,12 @@
 # vulnersify
-
+```
+__     __     _                     _  __
+\ \   / /   _| |_ __   ___ _ __ ___(_)/ _|_   _
+ \ \ / / | | | | '_ \ / _ \ '__/ __| | |_| | | |
+  \ V /| |_| | | | | |  __/ |  \__ \ |  _| |_| |
+   \_/  \__,_|_|_| |_|\___|_|  |___/_|_|  \__, |
+                                          |___/
+```
 **Vulnersify** is a script which optimizes searches for vulnerabilities
 
 **vulnersify.py** is the python script ( python3 )
