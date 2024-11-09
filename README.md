@@ -28,6 +28,17 @@ python3 vulnersify.py --input 'bootstrap 4.0.0' --api_key <your_key> --path $YOU
 ```
 *or you can put the api key and the path directly in the config.conf file*
 
+
+## Obtaining Vulners API key
+
+Please, sign up at [Vulners website](https://vulners.com).
+Go to the personal menu by clicking on your name in the right top corner.
+Follow "API KEYS" tab.
+Generate an API key with scope "api" and use it with the library.
+
+[Step-by-step guide](https://vulners.com/docs/apikey/)
+
+
 ## examples
 ```
 python3 vulnersify.py --help
